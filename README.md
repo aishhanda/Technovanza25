@@ -52,7 +52,7 @@ Our team, **KRYPTHOS**, emerged as the **overall winners** of the hackathon by s
 ## Achievements Summary
 - **Overall Winner of TechnoVenza 2025**  
 - Demonstrated **leadership, risk management, teamwork, and coding proficiency**  
-- Developed **full-stack web project**, solving real-world problems  
+- Developed **web project**, solving real-world problems  
 - Applied **strategic thinking and rapid problem-solving** under strict deadlines  
 
 ---
