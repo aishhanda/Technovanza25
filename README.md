@@ -21,7 +21,7 @@ Our team, **KRYPTHOS**, emerged as the **overall winners** of the hackathon by s
 - **Achievement:** Ranked **1st** among all teams by combining speed and accuracy.  
 - Skills: Quick problem-solving, technical knowledge, team coordination.
 
-### Round 2: Website Development Challenge
+### [index.html](Round 2: Website Development Challenge)
 - Objective: Develop a **fully functional website** for a real-world problem using **GitHub Copilot** while keeping code clean and maintainable.  
 - Key Highlights:
   - Copilot usage only 0-10%, demonstrating **strong coding skills and problem-solving ability**.  
@@ -37,12 +37,12 @@ Our team, **KRYPTHOS**, emerged as the **overall winners** of the hackathon by s
 
 ## Day 2 Highlights
 
-### Round 1: Python Coding Challenge
+### Round 3: Python Coding Challenge
 - Objective: Solve **10 programming problems without AI assistance** under time constraints.  
 - **Achievement:** First team to push all solutions to GitHub, securing **top points**.  
 - Skills: Python programming, algorithmic thinking, time management.
 
-### Round 2: Advanced Problem Solving
+### Round 4: Advanced Problem Solving
 - Objective: Solve **2 high-level programming problems** under time pressure.  
 - **Achievement:** Solved in the **least possible time**, contributing to overall victory.  
 - Skills: Advanced algorithms, collaboration, pressure handling.
