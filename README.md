@@ -1,4 +1,4 @@
-# TechnoVenza 2025 – Hackathon Journey
+# TechnoVanza 2025 – Hackathon Journey
 
 **Team:** KRYPTHOS  
 **Members:** 3  
@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-TechnoVenza 2025 was a two-day inter-collegiate hackathon with 27+ competing teams. The event tested **problem-solving, coding skills, time management, risk-taking, leadership, and teamwork** through multiple challenging rounds.
+TechnoVanza 2025 was a two-day inter-collegiate hackathon with 27+ competing teams. The event tested **problem-solving, coding skills, time management, risk-taking, leadership, and teamwork** through multiple challenging rounds.
 
 Our team, **KRYPTHOS**, emerged as the **overall winners** of the hackathon by strategically solving problems under pressure and showcasing technical and collaborative skills.
 
