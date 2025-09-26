@@ -21,7 +21,7 @@ Our team, **KRYPTHOS**, emerged as the **overall winners** of the hackathon by s
 - **Achievement:** Krypthos got ranked **1st** among all teams by combining speed and accuracy.  
 - Skills: Quick problem-solving, technical knowledge, team coordination.
 
- [Round 2: Website Development Challenge](index.html)
+ ### Round 2: Website Development Challenge
 - Objective: Each team had to develop a **website** for a real-world problem using **GitHub Copilot** while keeping code clean and maintainable and ensuring the effective and efficient use of Copilot.  
 - Key Highlights:
   - Copilot usage only 0-10%, demonstrating **strong coding skills and problem-solving ability**.  
