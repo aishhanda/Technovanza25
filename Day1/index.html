@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Lost & Found</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.08); }
+    .gradient-btn { background: linear-gradient(90deg,#4f46e5,#06b6d4); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100 min-h-screen">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-8 py-5 bg-slate-900/70 glass sticky top-0 z-50">
+    <h1 class="text-2xl font-extrabold tracking-wide text-white">🎒 Campus Lost & Found</h1>
+    <nav class="space-x-4">
+      <button class="px-4 py-2 rounded-lg bg-slate-700 hover:bg-slate-600">Log In</button>
+      <button class="px-4 py-2 rounded-lg gradient-btn text-white font-semibold">Sign Up</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 px-6">
+    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Lost Something? Found Something?</h2>
+    <p class="text-lg text-gray-300 mb-8">Easily post lost & found items, search smartly, and connect with finders instantly.</p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <span class="px-4 py-2 rounded-full bg-emerald-500/20 text-emerald-400">Smart Search</span>
+      <span class="px-4 py-2 rounded-full bg-sky-500/20 text-sky-400">Image Match</span>
+      <span class="px-4 py-2 rounded-full bg-indigo-500/20 text-indigo-400">Messenger</span>
+      <span class="px-4 py-2 rounded-full bg-fuchsia-500/20 text-fuchsia-400">Status Tracking</span>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="grid lg:grid-cols-2 gap-10 px-8 pb-20 max-w-7xl mx-auto">
+
+    <!-- Post an Item -->
+    <div class="glass rounded-2xl p-8 shadow-xl">
+      <h3 class="text-2xl font-bold mb-6">📌 Post an Item</h3>
+      <div x-data="{ type: 'lost' }" class="space-y-4">
+        <!-- Toggle -->
+        <div class="flex space-x-4">
+          <button @click="type='lost'" :class="type==='lost' ? 'bg-red-600 text-white' : 'bg-slate-700'" class="px-4 py-2 rounded-lg">Lost</button>
+          <button @click="type='found'" :class="type==='found' ? 'bg-green-600 text-white' : 'bg-slate-700'" class="px-4 py-2 rounded-lg">Found</button>
+        </div>
+        <!-- Form -->
+        <input type="text" placeholder="Title (e.g. Black Wallet)" class="w-full p-3 rounded-lg bg-slate-800 border border-slate-600">
+        <textarea placeholder="Description (distinguishing features)" class="w-full p-3 rounded-lg bg-slate-800 border border-slate-600"></textarea>
+        <div class="flex gap-4">
+          <input type="text" placeholder="Location (e.g. Library, 2nd floor)" class="flex-1 p-3 rounded-lg bg-slate-800 border border-slate-600">
+          <input type="date" class="p-3 rounded-lg bg-slate-800 border border-slate-600">
+        </div>
+        <input type="file" class="w-full text-gray-400">
+        <div class="flex gap-4">
+          <button class="flex-1 gradient-btn py-3 rounded-lg font-bold">Post Item</button>
+          <button class="flex-1 bg-slate-700 py-3 rounded-lg">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search & Matches -->
+    <div class="glass rounded-2xl p-8 shadow-xl">
+      <h3 class="text-2xl font-bold mb-6">🔍 Search & Matches</h3>
+      <div class="space-y-4">
+        <input type="text" placeholder="Search by keywords, location or date" class="w-full p-3 rounded-lg bg-slate-800 border border-slate-600">
+        <div class="flex gap-4">
+          <button class="flex-1 gradient-btn py-3 rounded-lg font-bold">Search</button>
+          <button class="flex-1 bg-indigo-600 py-3 rounded-lg">Image Search</button>
+        </div>
+        <div class="flex gap-4">
+          <button class="flex-1 bg-slate-700 py-3 rounded-lg">Lost Items</button>
+          <button class="flex-1 bg-slate-700 py-3 rounded-lg">Found Items</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Campus Messenger -->
+  <section class="max-w-4xl mx-auto px-8 pb-20">
+    <div class="glass rounded-2xl p-8 shadow-xl">
+      <h3 class="text-2xl font-bold mb-6">💬 Campus Messenger</h3>
+      <div class="flex flex-col gap-4">
+        <input type="text" placeholder="Recipient username" class="p-3 rounded-lg bg-slate-800 border border-slate-600">
+        <textarea placeholder="Type a message..." class="p-3 rounded-lg bg-slate-800 border border-slate-600"></textarea>
+        <button class="gradient-btn py-3 rounded-lg font-bold">Send</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900/70 text-gray-400 py-6 text-center text-sm">
+    © 2025 Campus Lost & Found — Built with ❤️
+  </footer>
+
+</body>
+</html>
